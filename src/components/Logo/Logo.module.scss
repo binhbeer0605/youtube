@@ -1,0 +1,31 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 169px;
+}
+
+.logo-render {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: none;
+    padding: 18px 14px 18px 16px;
+    cursor: pointer;
+}
+
+.box-logo {
+    width: 90px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country {
+    position: absolute;
+    top: 0.8rem;
+    right: 4.6rem;
+    color: #aaa;
+    font-size: 1rem;
+}
